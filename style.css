@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(19, 19, 19);
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    margin: 10vw 10vw 0vw 35vw;
+
+}
+.game{
+    display: grid;
+    grid-template-columns: 12vh 12vh 12vh 12vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 10vh;
+    width: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2vw;
+    cursor: pointer;
+}
+
+.box1 , .box9{
+    background-image: url(angryface.png);
+}
+.box2 , .box10{
+    background-image: url(coolface.png);
+}
+.box3 , .box11{
+    background-image: url(evilface.png);
+}
+.box4 , .box12{
+    background-image: url(feverface.png);
+}
+.box5 , .box13{
+    background-image: url(freezeface.png);
+}
+.box6 , .box14{
+    background-image: url(sneezeface.png);
+}
+.box7 , .box15{
+    background-image: url(thinkingface.png);
+}
+.box8 , .box16{
+    background-image: url(vomitface.png);
+}
+.coke{
+    background-image: url(coke.png);
+}
+.win{
+    font-size: 8rem;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background-color: transparent;
+    color: white;
+    opacity: 0;
+    z-index: -1;
+}
