@@ -4,15 +4,14 @@
 h1{
     color: white;
     font-size: 2rem;
-    margin: 10vw 10vw 0vw 35vw;
+    margin: 10vw 0vw 0vw 0vw;
+    text-align: center;
 
 }
 .game{
     display: grid;
     grid-template-columns: 12vh 12vh 12vh 12vh;
-    position: absolute;
-    top: 30vh;
-    left: 36vw;
+    justify-content: center;
 }
 .hidden{
     display: grid;
@@ -37,7 +36,6 @@ h1{
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 2vw;
-    z-index: -10;
 }
 
 .box1 , .box9, .Hbox1, .Hbox9{
