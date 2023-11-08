@@ -10,40 +10,58 @@ h1{
 .game{
     display: grid;
     grid-template-columns: 12vh 12vh 12vh 12vh;
-    align-items: center;
+    position: absolute;
+    top: 30vh;
+    left: 36vw;
     justify-content: center;
+}
+.hidden{
+    display: grid;
+    grid-template-columns: 12vh 12vh 12vh 12vh;
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    justify-content: center;
+    opacity: 0;
 }
 .container{
     height: 10vh;
     width: 10vh;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 2vw;
+    margin-top: 2vw;
     cursor: pointer;
 }
+.Hcontainer{
+    height: 10vh;
+    width: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2vw;
+}
 
-.box1 , .box9{
+.box1 , .box9, .Hbox1, .Hbox9{
     background-image: url(angryface.png);
 }
-.box2 , .box10{
+.box2 , .box10, .Hbox2, .Hbox10{
     background-image: url(coolface.png);
 }
-.box3 , .box11{
+.box3 , .box11, .Hbox3, .Hbox11{
     background-image: url(evilface.png);
 }
-.box4 , .box12{
+.box4 , .box12, .Hbox4, .Hbox12{
     background-image: url(feverface.png);
 }
-.box5 , .box13{
+.box5 , .box13, .Hbox5, .Hbox13{
     background-image: url(freezeface.png);
 }
-.box6 , .box14{
+.box6 , .box14, .Hbox6, .Hbox14{
     background-image: url(sneezeface.png);
 }
-.box7 , .box15{
+.box7 , .box15, .Hbox7, .Hbox15{
     background-image: url(thinkingface.png);
 }
-.box8 , .box16{
+.box8 , .box16, .Hbox8, .Hbox16{
     background-image: url(vomitface.png);
 }
 .coke{
