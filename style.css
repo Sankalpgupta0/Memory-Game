@@ -21,6 +21,7 @@ h1{
     top: 0vh;
     left: 0vw;
     opacity: 0;
+    z-index: -10;
 }
 .container{
     height: 10vh;
@@ -36,6 +37,7 @@ h1{
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 2vw;
+    z-index: -10;
 }
 
 .box1 , .box9, .Hbox1, .Hbox9{
