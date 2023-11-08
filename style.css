@@ -3,10 +3,9 @@
 }
 h1{
     color: white;
-    font-size: 2rem;
+    font-size: 2vw;
     margin: 10vw 0vw 0vw 0vw;
     text-align: center;
-
 }
 .game{
     display: grid;
